@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Verification Appliction</string>
+    <string name="welcome">Welcome to AICTE and MHBC college</string>
+    <string name="start">START</string>
+    <string name="student">STUDENT</string>
+    <string name="faculty">faculty</string>
+    <string name="Faculty">FACULTY</string>
+    <string name="Student_Info">Enter the your details(student):-</string>
+    <string name="entername" />
+    <string name="EnterName">Enter student name:-</string>
+    <string name="Faculty_Info">Enter your details (Faculty):-</string>
+    <string name="PATH_TEXT">PATH</string>
+    <string name="cate"><![CDATA[\n\nFor first tier college:- \n->jee advance is important  \n\nFor second tier college:- \n->jee main percentage more then 90% required  \n\nFor third tier college:- \n->jee main score or percentage are not required]]></string>
+    <string name="invalid_age">only enter integer</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/StartText"
+        android:layout_width="141dp"
+        android:layout_height="71dp"
+        android:background="#040404"
+        android:fontFamily="@font/henny_penny"
+        android:gravity="center"
+        android:text="@string/start"
+        android:textColor="#FDFCFC"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.659"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/welcometext"
+        android:layout_width="305dp"
+        android:layout_height="221dp"
+        android:background="#040404"
+        android:fontFamily="@font/henny_penny"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:padding="8dp"
+        android:text="@string/welcome"
+        android:textColor="#FDFCFC"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281"
+        tools:ignore="TextSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
